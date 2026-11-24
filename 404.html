@@ -2,11 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=./" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
     <title>HookLab is moving</title>
-    <link rel="canonical" href="./" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0c0f14;
+        --text: #e8ecf1;
+        --muted: #9aa3b2;
+        --accent: #6ee7b7;
+        --line: rgba(255, 255, 255, 0.08);
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: Georgia, "Times New Roman", serif;
+        background:
+          radial-gradient(ellipse at top, #152033 0%, transparent 55%),
+          var(--bg);
+        color: var(--text);
+        padding: 1.5rem;
+      }
+      main {
+        max-width: 34rem;
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+        padding: 2rem 1.5rem;
+        background: rgba(255, 255, 255, 0.03);
+      }
+      p.kicker {
+        margin: 0 0 0.75rem;
+        font-family: system-ui, sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      h1 {
+        margin: 0 0 1rem;
+        font-size: clamp(2rem, 5vw, 2.75rem);
+        line-height: 1.05;
+      }
+      p {
+        margin: 0 0 0.9rem;
+        color: var(--muted);
+        font-family: system-ui, sans-serif;
+        line-height: 1.55;
+      }
+      a {
+        color: var(--accent);
+        font-family: system-ui, sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <p><a href="./">HookLab is moving — continue</a></p>
+    <main>
+      <p class="kicker">HookLab Studio</p>
+      <h1>We’re moving. Back soon.</h1>
+      <p>
+        This path is offline while we finish a safer unlock flow. Old shared
+        access codes no longer work and will not return.
+      </p>
+      <p><a href="/">Back to the update notice</a></p>
+    </main>
   </body>
 </html>
